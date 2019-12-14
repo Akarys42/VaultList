@@ -1,0 +1,1 @@
+﻿# Vault ListTool to list your Unreal Marketplace vault content### Requirements* [Python](https://www.python.org/downloads/release/python-374)* [Pipenv](https://github.com/pypa/pipenv#installation)### How to use1. Enter `pipenv run list`2. Login in 3. Press `enter` in the shell4. The list is generating
