@@ -1,0 +1,21 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+flake8-import-order = "*"
+flake8-tidy-imports = "*"
+flake8-annotations = "*"
+pre-commit = "*"
+
+[packages]
+selenium = "*"
+webdrivermanager = "*"
+
+[requires]
+python_version = "3.7"
+
+[scripts]
+lint = "flake8"
+precommit = "pre-commit install"
